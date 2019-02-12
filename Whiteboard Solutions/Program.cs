@@ -6,20 +6,8 @@ using System.Threading.Tasks;
 
 namespace Whiteboard_Solutions
 {
-    class Program
+    class Clock
     {
-        static void Main(string[] args)
-        {
-            try
-            {
-                Console.WriteLine(TimeAngle(13, 50));
-            }
-            catch(InvalidOperationException IOE)
-            {
-                Console.WriteLine(IOE.Message); 
-            }
-        }
-
 //--------Create a function that will return the difference of angles of a clock's--//
 //--------minutes and hour hands are at during a whatever parameters are input.-----//
 
