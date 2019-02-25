@@ -10,7 +10,8 @@ namespace CodeWars
     {
         static void Main(string[] args)
         {
-            Console.WriteLine(DescendingOrder(56856));
+            //    Console.WriteLine(DescendingOrder(56856));
+            WeirdCase.ToWeirdCase("      ");
         }
 
         public static int[] ConvertInt(int input)   // --- CONVERTS AN INT INTO AN ARRAY --
