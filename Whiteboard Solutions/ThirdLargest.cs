@@ -10,13 +10,14 @@ namespace Whiteboard_Solutions
     {
         public static void Main(string[] args)
         {
-               int[] test = { 7, 3, 33, 4, 3, 2, 4, 7, 8 };
-               int x = ThirdLargest(test);
-               Console.WriteLine(x);
-               Console.WriteLine(SortString.sorted("apple"));
-              NumTillOne(555);
-            PhoneText(1665);
-            Console.Read();
+            //   int[] test = { 7, 3, 33, 4, 3, 2, 4, 7, 8 };
+            //   int x = ThirdLargest(test);
+            //   Console.WriteLine(x);
+            //   Console.WriteLine(SortString.sorted("apple"));
+            //   NumTillOne(555);
+            //   PhoneText(1665);
+            //   Console.Read();
+            Console.WriteLine(SumOfAllPrimes.SumOfPrimes(7)); 
         }
 
         public static int ThirdLargest(int[] x)

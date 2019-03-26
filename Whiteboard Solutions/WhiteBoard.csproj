@@ -45,6 +45,7 @@
   <ItemGroup>
     <Compile Include="AngleOfAClock.cs" />
     <Compile Include="SortString.cs" />
+    <Compile Include="SumOfAllPrimes.cs" />
     <Compile Include="ThirdLargest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
