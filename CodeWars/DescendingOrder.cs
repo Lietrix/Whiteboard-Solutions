@@ -8,13 +8,8 @@ namespace CodeWars
 {
     class Kata
     {
-        static void Main(string[] args)
-        {
-            //    Console.WriteLine(DescendingOrder(56856));
-            WeirdCase.ToWeirdCase("      ");
-        }
-
-        public static int[] ConvertInt(int input)   // --- CONVERTS AN INT INTO AN ARRAY --
+        // --- CONVERTS AN INT INTO AN ARRAY --
+        public static int[] ConvertInt(int input)  
         {
             int[] output = new int[input.ToString().Length];
             int i = 0;

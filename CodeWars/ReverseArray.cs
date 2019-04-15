@@ -8,7 +8,7 @@ namespace CodeWars
 {
     class ReverseArray
     {
-        static int[] Reverse(int[] input)
+        public static int[] Reverse(int[] input)
         {
             int[] output = new int[input.Length];
             for (int i = 0; i < input.Length; i++)

@@ -6,20 +6,8 @@ using System.Threading.Tasks;
 
 namespace Whiteboard_Solutions
 {
-    class Whiteboard
+    public class Whiteboard
     {
-        public static void Main(string[] args)
-        {
-            //   int[] test = { 7, 3, 33, 4, 3, 2, 4, 7, 8 };
-            //   int x = ThirdLargest(test);
-            //   Console.WriteLine(x);
-            //   Console.WriteLine(SortString.sorted("apple"));
-            //   NumTillOne(555);
-            //   PhoneText(1665);
-            //   Console.Read();
-            Console.WriteLine(SumOfAllPrimes.SumOfPrimes(7)); 
-        }
-
         public static int ThirdLargest(int[] x)
         {
             x[Array.IndexOf(x, x.Max())] = x.Min() - 1;//x[2] = 1
@@ -27,24 +15,6 @@ namespace Whiteboard_Solutions
             return x.Max();
         }
 
-        public static int NumTillOne(int num)
-        {
-            int output = 0;
-            foreach (var x in num.ToString())
-            {
-                output += x;
-            }
-            while (output.ToString().Length != 1)
-            {
-                Console.WriteLine(output);
-                foreach (var x in output.ToString())
-                {
-                    output += x;
-                }
-            }
-            Console.WriteLine(output);
-            return output;
-        }
 
         public static void PhoneText(int numbers)
         {

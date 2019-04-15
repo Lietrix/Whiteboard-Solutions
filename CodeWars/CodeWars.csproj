@@ -48,6 +48,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ReverseArray.cs" />
     <Compile Include="ROT13.cs" />
+    <Compile Include="StartMain.cs" />
     <Compile Include="WeirdCase.cs" />
   </ItemGroup>
   <ItemGroup>

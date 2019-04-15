@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Whiteboard_Solutions
 {
-    class SumOfAllPrimes
+    public class SumOfAllPrimes
     {
         public static int SumOfPrimes(int x)
         {
@@ -17,7 +17,7 @@ namespace Whiteboard_Solutions
             }
             return result;
         }
-        static bool isPrime(int x)
+        public static bool isPrime(int x)
         {
             if (x <= 1) return false;
             if (x == 2) return true;

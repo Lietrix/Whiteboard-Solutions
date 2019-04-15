@@ -8,6 +8,7 @@ namespace CodeWars
 {
     class CountUTF_8
     {
+        // Creates a dictionary based on the input string, counting each character and creating new keys for new characters
         public static Dictionary<char, int> Count(string str)
         {
             Dictionary<char, int> output = new Dictionary<char, int> { };
