@@ -11,8 +11,10 @@ To try out my solutions,
 ### For a brief summary of what each code is doing click on either
 
 **Advanced**  
+
 [CodeWars](CodeWars/StartMain.cs)
 
 **Basic**
+
 [Whiteboard](Whiteboard%20Solutions/Test.cs)
 
