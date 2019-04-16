@@ -8,7 +8,11 @@ To try out my solutions,
 3. Rightclick either Codewars Project or WhiteBoard and click "Set as startup project"
 4. Run without debugging
 
-For a brief summary of what each code is doing click on either
+### For a brief summary of what each code is doing click on either
 
-Whiteboard -> Tests
-CodeWars -> StartMain
+**Advanced**  
+[CodeWars](CodeWars/StartMain.cs)
+
+**Basic**
+[Whiteboard](Whiteboard%20Solutions/Test.cs)
+
