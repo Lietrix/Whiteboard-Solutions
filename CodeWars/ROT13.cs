@@ -11,7 +11,7 @@ namespace CodeWars
         public static string Rot13(string message)
         {
             string output = string.Empty;
-            string a = "abcdefghijklmonpqrstuvwxyz";
+            string a = "abcdefghijklmnopqrstuvwxyz";
                 
             foreach (char c in message)
             {
@@ -38,7 +38,7 @@ namespace CodeWars
                     int shift = Array.IndexOf(a.ToCharArray(),c) + 13;
                     if (shift > a.Length-1)
                     {
-                        shift -= a.Length-1;
+                        shift -= a.Length;
                         output += a[shift];
                         continue;
                     }
